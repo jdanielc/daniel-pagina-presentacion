@@ -10,8 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
   texto:string = '';
   ngOnInit(): void {
-    this.texto = `Nacido en 1999 mostro desde una temprana edad una gran curiosidad e interes por la tecnología 
-    y las telecomunicaciones. `;
+    this.texto = `Lorem ipsum dolor sit amet consectetur adipisicing elit. A necessitatibus architecto temporibus, esse fugit iure! Eveniet neque voluptates officiis laboriosam aliquid quae, mollitia temporibus, a deserunt sapiente reiciendis modi asperiores.`;
   }
 
 }
