@@ -19,6 +19,9 @@ import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
+import { AmplioComponent } from './components/amplio/amplio.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -30,8 +33,11 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
     HeroeComponent,
     BuscadorComponent,
     HeroeTarjetaComponent,
-    DomseguroPipe
-  ],
+    DomseguroPipe,
+    AmplioComponent,
+    ContactComponent,
+    ExperienciaComponent
+    ],
   imports: [
     BrowserModule,
     APP_ROUTING
