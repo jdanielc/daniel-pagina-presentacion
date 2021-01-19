@@ -22,6 +22,7 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
 import { AmplioComponent } from './components/amplio/amplio.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
     DomseguroPipe,
     AmplioComponent,
     ContactComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    FooterComponent
     ],
   imports: [
     BrowserModule,

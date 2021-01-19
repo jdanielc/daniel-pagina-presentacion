@@ -17,7 +17,9 @@ export class HomeComponent implements OnInit {
     por dedicarse a el, estudiando el Grado Superior en Desarrollo de Aplicaciones Multiplataforma.`;
     
     this.texto2 = `Dispuesto e interesado en aprender nuevas tecnologías, materias, técnicas, paradigmas o conocimientos en general.
-    Comprometido, responsable y con una alta capacidad para trabajar en equipo`;
+    Comprometido, responsable y con una alta capacidad para trabajar en equipo. `;
+    
+    this.texto3 = ``;
   
   }
 
