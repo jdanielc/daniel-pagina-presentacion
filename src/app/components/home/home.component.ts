@@ -8,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
-  texto:string = '';
+  texto1:string = '';
+  texto2:string = '';
+  texto3:string = '';
   ngOnInit(): void {
-    this.texto = `Lorem ipsum dolor sit amet consectetur adipisicing elit. A necessitatibus architecto temporibus, esse fugit iure! Eveniet neque voluptates officiis laboriosam aliquid quae, mollitia temporibus, a deserunt sapiente reiciendis modi asperiores.`;
+    this.texto1 = `Nacido en Huelva en 1999, mostro desde temprana edad un gran gusto e interes por la informática y la
+    tecnología. Este interes le acercaría poco a poco al desarrollo de software hasta que finalmente se decidio
+    por dedicarse a el, estudiando el Grado Superior en Desarrollo de Aplicaciones Multiplataforma.`;
+    
+    this.texto2 = `Dispuesto e interesado en aprender nuevas tecnologías, materias, técnicas, paradigmas o conocimientos en general.
+    Comprometido, responsable y con una alta capacidad para trabajar en equipo`;
+  
   }
 
 }
