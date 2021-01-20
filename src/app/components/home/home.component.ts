@@ -18,8 +18,8 @@ export class HomeComponent implements OnInit {
     
     this.texto2 = `Dispuesto e interesado en aprender nuevas tecnologías, materias, técnicas, paradigmas o conocimientos en general.
     Comprometido, responsable y con una alta capacidad para trabajar en equipo. `;
-    
-    this.texto3 = ``;
+
+    this.texto3 = `Experimentado tanto en desarrollo web como de aplicaciones multiplataforma en dispositivos smartphone y desktop.`;
   
   }
 
