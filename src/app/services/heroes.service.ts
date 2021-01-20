@@ -7,7 +7,7 @@ export class HeroesService{
     private heroes: Heroe[] = [
         {
           nombre: "Java",
-          bio: "Conocimientos, estudios y experiencia tanto en desarrollo movil y escritorio como en backend web usando Java en sus versiones 6/8/11. ",
+          bio: "Conocimientos y experiencia en desarrollo movil, escritorio y backend-web usando Java version 6/8/11. ",
           img: "assets/img/java.jpg",
           aparicion: "1941-11-01",
           casa:"DC",
@@ -24,7 +24,7 @@ export class HeroesService{
         {
           nombre: "JavaScript",
           bio: "Conocimiento y experiencia en desarrollo front-end web con JavaScript",
-          img: "assets/img/js.png",
+          img: "assets/img/js.jpg",
           aparicion: "1964-01-01",
           casa: "Marvel",
           wiki: "Es un lenguaje de programación interpretado, Se define como orientado a objetos,​ basado en prototipos, imperativo, débilmente tipado y dinámico. Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas"
