@@ -43,7 +43,8 @@ export class HeroesService{
           img: "assets/img/angular.png",
           aparicion: "1940-06-01",
           casa: "DC",
-          wiki: "Es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles."
+          wiki: "Es un framework para aplicaciones web desarrollado en TypeScript, de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página. Su objetivo es aumentar las aplicaciones basadas en navegador con capacidad de Modelo Vista Controlador (MVC), en un esfuerzo para hacer que el desarrollo y las pruebas sean más fáciles.",
+          titulo: "assets/img/titulo_angular.jpg"
         },
         {
           nombre: "SQL",
@@ -122,4 +123,5 @@ export interface Heroe{
     casa: string;
     idx?:number;
     wiki?:string;
+    titulo?: string;
 }

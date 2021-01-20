@@ -10,6 +10,8 @@ import { HeroesService } from '../../services/heroes.service';
 export class HeroeComponent {
 
   heroe:any = {};
+  muestraTitulo:boolean= false;
+  mnsjBoton:string = '';
 
   constructor(private activatedRoute:ActivatedRoute,
               private _heroesService: HeroesService) {
@@ -19,8 +21,19 @@ export class HeroeComponent {
       
 
     } )
+
+    this.mnsjBoton = 'Mostrar título';
    }
 
+   tituloShow(){
+     this.muestraTitulo = !this.muestraTitulo;
 
+     if(this.muestraTitulo){
+        this.mnsjBoton = 'Ocultar título';
+     }else{
+       this.mnsjBoton = 'Mostrar título';
+     }
+
+   }
 
 }

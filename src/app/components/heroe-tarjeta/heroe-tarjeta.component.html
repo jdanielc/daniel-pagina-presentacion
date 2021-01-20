@@ -1,7 +1,7 @@
 <div class="card animated fadeIn fast">
     <img [src]="heroe.img" class="card-img-top max-height:250px" [alt]="heroe.nombre">
     <div class="card-body">
-        <h5 class="card-title">{{heroe.nombre}}</h5>
+        <h5 class="card-title">{{heroe.nombre}} <i class="fas fa-scroll" *ngIf="heroe.titulo" data-toggle="tooltip" data-placement="top" title="Titulado"></i> </h5>
         <p class="card-text">{{ heroe.bio }}</p>
     </div>
     <div class="card-footer">

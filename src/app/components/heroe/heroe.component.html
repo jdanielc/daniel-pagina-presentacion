@@ -17,6 +17,11 @@
         <p>
             {{heroe.wiki}}
         </p>
+        <div class="col">
+            <button *ngIf="heroe.titulo" type="button" class="btn btn-outline-success m-2 animated fadeIn" (click)="tituloShow()">{{mnsjBoton}}</button>
+            <img *ngIf="muestraTitulo" class="img-logo animated fadeIn" src="{{heroe.titulo}}" height="450px" alt="">
+        </div>
+
         <!--    <div>
             <img *ngIf="heroe.casa == 'DC'" class="img-logo" src="assets/img/DC.png" alt="">
             <img *ngIf="heroe.casa == 'Marvel'" class="img-logo" src="assets/img/Marvel.png" alt="">
