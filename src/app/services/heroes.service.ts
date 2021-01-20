@@ -7,7 +7,7 @@ export class HeroesService{
     private heroes: Heroe[] = [
         {
           nombre: "Java",
-          bio: "Conocimientos y experiencia en desarrollo movil, escritorio y backend-web usando Java version 6/8/11. ",
+          bio: "Conocimientos y experiencia en desarrollo movil, escritorio y backend-web usando Java version 6/8/11.",
           img: "assets/img/java.jpg",
           aparicion: "1941-11-01",
           casa:"DC",
@@ -38,7 +38,7 @@ export class HeroesService{
           wiki: "PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML. El código PHP suele ser procesado en un servidor web por un intérprete PHP implementado como un módulo, un daemon o como un ejecutable de interfaz de entrada común (CGI)."
         },
         {
-          nombre: "Angular",
+          nombre: "Angular 10",
           bio: "Conocimiento inicial en desarrollo web front-end con Angular 10",
           img: "assets/img/angular.png",
           aparicion: "1940-06-01",
