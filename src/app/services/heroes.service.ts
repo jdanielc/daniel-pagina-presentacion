@@ -76,7 +76,15 @@ export class HeroesService{
           img: "assets/img/scm.jpg",
           aparicion: "1974-11-01",
           casa: "Marvel",
-          wiki: "s la integración de los procesos de negocios desde un usuario final hasta los suplidores que proveen productos, servicios e información que añaden valor a los clientes en toda la cadena de suministro."
+          wiki: "Es la integración de los procesos de negocios desde un usuario final hasta los suplidores que proveen productos, servicios e información que añaden valor a los clientes en toda la cadena de suministro. Una de sus aplicaciones posibles es la de repositorio de versiones."
+        },
+        {
+          nombre: "SVN",
+          bio: "Conocimiento y experiencia en el control de versiones de un proyecto usando Apache Surversion",
+          img: "assets/img/SVN.png",
+          aparicion: "2000-10-20",
+          casa: "Marvel",
+          wiki: "Apache Subversion (abreviado frecuentemente como SVN, por el comando svn) es una herramienta de control de versiones open source basada en un repositorio cuyo funcionamiento se asemeja enormemente al de un sistema de ficheros. Es software libre bajo una licencia de tipo Apache/BSD. Es comun ser usado con otros programas de terceros/clientes como TortoiseSVN"
         }
       ]
 
