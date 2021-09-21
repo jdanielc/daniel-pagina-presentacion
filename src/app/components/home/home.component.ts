@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   texto2:string = '';
   texto3:string = '';
   ngOnInit(): void {
-    this.texto1 = `Nacido en Huelva en 1999, mostro desde temprana edad un gran gusto e interes por la informática y la
+    this.texto1 = `Nacido en Huelva en 1999, mostró desde temprana edad un gran gusto e interes por la informática y la
     tecnología. Este interes le acercaría poco a poco al desarrollo de software hasta que finalmente se decidio
     por dedicarse a el, estudiando el Grado Superior en Desarrollo de Aplicaciones Multiplataforma.`;
     
