@@ -85,6 +85,22 @@ export class HeroesService{
           aparicion: "2000-10-20",
           casa: "Marvel",
           wiki: "Apache Subversion (abreviado frecuentemente como SVN, por el comando svn) es una herramienta de control de versiones open source basada en un repositorio cuyo funcionamiento se asemeja enormemente al de un sistema de ficheros. Es software libre bajo una licencia de tipo Apache/BSD. Es comun ser usado con otros programas de terceros/clientes como TortoiseSVN"
+        },
+        {
+          nombre: "Selenium",
+          bio: "Experiencia en la generación de soluciones automatizadas usando Selenium WebDriver en Java.",
+          img: "assets/img/Selenium-java-logos.png",
+          aparicion: "2004-01-01",
+          casa: "Marvel",
+          wiki: "Selenium es un entorno de pruebas de software para aplicaciones basadas en la web. Selenium provee una herramienta de grabar/reproducir para crear pruebas sin usar un lenguaje de scripting para pruebas (Selenium IDE). Incluye también un lenguaje específico de dominio para pruebas (Selenese) para escribir pruebas en un amplio número de lenguajes de programación populares incluyendo Java, C#, Ruby, Groovy, Perl, PHP y Python. Las pruebas pueden ejecutarse entonces usando la mayoría de los navegadores web modernos en diferentes sistemas operativos como Windows, Linux y OSX."
+        },
+        {
+          nombre: "OpenCMS",
+          bio: "Conocimiento y experiencia en la edición y desarrollo de páginas y entornos OpenCMS v8.",
+          img: "assets/img/opencms.png",
+          aparicion: "2002-01-01",
+          casa: "Marvel",
+          wiki: "OpenCms es un sistema de gestión de contenido de código abierto basado en Java y en tecnología XML. Es distribuido por la empresa Alkacon Software bajo licencia LGPL. Se trata de una aplicación CMS con características tales como Entorno de trabajo basado en navegador web, Gestión de activos, Sistemas de gestión de usuarios y permisos integrados, Publicación de contenidos basada en proyectos, Gestión de Workflow y tareas, Editor WYSIWYG, Soporte a la internacionalización, Versionado del contenido, Mecanismos de plantillas JSP y XML, Soporte Multi-idioma, ..."
         }
       ]
 

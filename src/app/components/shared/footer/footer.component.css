@@ -1,10 +1,12 @@
 footer {
-    bottom: 0;
+    /*bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
+
     height: 60px;
     line-height: 60px;
+    text-align: center;*/
+    margin-top: auto;
     background-color: black !important;
-    text-align: center;
-    position: relative;
+    position: absolute;
+
 }
