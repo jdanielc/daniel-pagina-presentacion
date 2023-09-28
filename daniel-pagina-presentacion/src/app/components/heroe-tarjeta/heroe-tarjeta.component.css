@@ -1,0 +1,7 @@
+.card-img-top {
+    height: 300px !important;
+}
+
+.card-text {
+    text-overflow: scroll;
+}

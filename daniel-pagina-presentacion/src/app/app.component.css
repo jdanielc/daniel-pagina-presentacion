@@ -1,0 +1,9 @@
+.main-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+router-outlet {
+    position: absolute;
+}
