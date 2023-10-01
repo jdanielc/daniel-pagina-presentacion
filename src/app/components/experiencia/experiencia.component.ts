@@ -14,6 +14,10 @@ export class ExperienciaComponent implements OnInit {
   Hasta día de hoy formo parte de un equipo de desarrollo el cual se encarga del desarrollo y mantenimiento de una serie de de servicios y 
   aplicacones web desarrolladas con tecnologías tales como Java, Spring o JavaScript`
   
+  textIrium = `Entrada en la firma en febrero de 2023 como un programador junior en la aclamada consultora Irium Soluciones y Sistemas.
+  Hasta día de hoy formo parte de un equipo de desarrollo el cual se encarga del desarrollo y mantenimiento de una serie de de servicios y 
+  aplicacones web desarrolladas con tecnologías como Java, Spring, JavaScript, JSF y Oracle SQL`
+
   constructor() { }
 
   ngOnInit(): void {
