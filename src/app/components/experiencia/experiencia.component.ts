@@ -12,7 +12,11 @@ export class ExperienciaComponent implements OnInit {
 
   textEveris = `Entrada en la firma en febrero de 2021 como un programador junior en la aclamada consultora Everis S.L.U.
   Hasta día de hoy formo parte de un equipo de desarrollo el cual se encarga del desarrollo y mantenimiento de una serie de de servicios y
-  aplicacones web desarrolladas con tecnologías tales como Java, Spring o JavaScript`
+  aplicacones web desarrolladas con tecnologías tales como Java, Spring o JavaScript`;
+
+  textIrium = `Entrada en la firma en febrero de 2023 como un programador junior en la aclamada consultora Irium Soluciones y Sistemas.
+  Hasta día de hoy formo parte de un equipo de desarrollo el cual se encarga del desarrollo y mantenimiento de una serie de de servicios y 
+  aplicacones web desarrolladas con tecnologías como Java, Spring, JavaScript, JSF y Oracle SQL`;
 
   constructor() { }
 
