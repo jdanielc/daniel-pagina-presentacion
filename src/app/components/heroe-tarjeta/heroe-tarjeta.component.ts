@@ -16,7 +16,7 @@ export class HeroeTarjetaComponent implements OnInit {
 
   constructor(private _router: Router) {
   this.heroeSeleccionado = new EventEmitter();
-  
+
    }
 
   ngOnInit(): void {
