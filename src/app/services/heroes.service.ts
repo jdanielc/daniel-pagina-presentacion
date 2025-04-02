@@ -7,11 +7,19 @@ export class HeroesService{
     private heroes: Heroe[] = [
         {
           nombre: "Java",
-          bio: "Conocimientos y experiencia en desarrollo movil, escritorio y backend-web usando Java version 6/8/11.",
+          bio: "Conocimientos y experiencia en desarrollo movil, escritorio y backend-web usando Java version 8/11/17.",
           img: "assets/img/java.jpg",
           aparicion: "1941-11-01",
           casa:"DC",
           wiki: "Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems. Hay muchas aplicaciones y sitios web que no funcionarán a menos que tenga Java instalado y cada día se crean más. Java es rápido, seguro y fiable. Desde portátiles hasta centros de datos, desde consolas para juegos hasta súper computadoras, desde teléfonos móviles hasta Internet, Java está en todas partes."
+        },
+        {
+          nombre: "Spring Boot",
+          bio: "Conocimientos y experiencia en desarrollo backend en aplicaciones web.",
+          img: "assets/img/spring-boot.png",
+          aparicion: "1941-11-01",
+          casa:"DC",
+          wiki: "Spring es un framework para el desarrollo de aplicaciones y contenedor de inversión de control, de código abierto para la plataforma Java."
         },
         {
           nombre: "C#",

@@ -20,7 +20,7 @@ export class ExperienciaComponent implements OnInit {
 
   textAccenture = `Entrada en la firma en junio de 2024 como un programador senior en la aclamada consultora Accenture.
   Hasta día de hoy formo parte de un equipo de desarrollo el cual se encarga del desarrollo y mantenimiento de una serie de de servicios y 
-  aplicacones web desarrolladas con tecnologías como Java, Struts, Hibernate, JavaScript, JSF y Oracle SQL`;
+  aplicacones web desarrolladas con tecnologías como Java, Spring Boot, Struts, Hibernate, JavaScript, JSF y Oracle/Postgre SQL`;
 
   constructor() { }
 
